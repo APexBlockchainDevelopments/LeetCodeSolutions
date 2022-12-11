@@ -20,8 +20,4 @@ contract ConvertTheTemp{
         ans[1] = fWei;
         return ans;
     }
-
-
-
-
 }
