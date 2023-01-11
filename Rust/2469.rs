@@ -29,9 +29,9 @@ impl Solution {
         let k = celsius + 273.15;
         let f = celsius * 1.80 + 32.00;
 
-        let mut result : Vec<f64>= Vec::new();
-        result[0] = k;
-        result[1] = f;
+        let mut result : Vec<f64> = Vec::new();
+        result.push(k);
+        result.push(f);
         return result
     }
 }
